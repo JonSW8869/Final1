@@ -11,22 +11,22 @@ const router = createBrowserRouter([
     path: "/",
     element: 
     <div>
-       <artlicle className ="Strings">
+       <artilcle className ="Strings">
       <div>
         <h1>Strings</h1>
         <h2>Declaring a String</h2>
-            <header>Hello World!</header>
             <body>
-               <p>Strings in C++ are declared like any other variable in Java: (variableType) Variable Name.</p>
+              <p>Strings in C++ are declared like any other variable in Java: (variableType) Variable Name.</p>
               <p>For example:</p>
-              <p>string Hello;</p>
+             <center><p>string Hello = "Hello World!";</p></center>
         <h2>String Methods</h2>
             <p>There are a lot of String Methods</p>
             <p>For example:</p>
-            <p>String.size()</p>
+            <li>String.size()</li>
         </body>
       </div>
-      </artlicle>
+      </artilcle>
+      
     </div>,
   },
 ]);
