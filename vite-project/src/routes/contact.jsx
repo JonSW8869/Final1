@@ -1,13 +1,7 @@
 
 
 export default function Contact() {
-  const contact = {
-    first: "Your",
-    last: "Name",
-    twitter: "your_handle",
-    notes: "Some notes",
-    favorite: true,
-  };
+
 
   return (
     <div id="contact">
